@@ -1,0 +1,81 @@
+html {height: 100%}
+
+body
+	{ font-family:  "Roboto", sans-serif;  color: #000000; font-weight: 600; padding: 0; background-color: #fff; background-image: url(peep.jpg); background-size: cover; }
+
+
+#header { 
+	position: fixed; z-index: 100;  top: 0px; bottom: 545px; padding: 0px 20px; left: 0px; width: 100%; background-color: rgba(224,224,224,.4); 
+	a { color: #000; }
+}
+
+
+#menu { 
+	float: right; margin-right: 40px; margin-top: -30px; font-family: 'nunito', sans-serif;
+	a { margin-left: 5px; }
+}
+
+
+#btnStart { margin-left: 440px; font-family: $HeaderFont;  position: absolute; top: 150px; right: 120px; border: none; border-bottom: 5px solid #ff6600; border-radius: 6px; z-index: 500;  font-size: 28px; padding: 10px 20px; color: green; background: #80FF00;  }
+
+
+#Name { color: rgb(0, 127, 127); top: 40px; position: absolute; font-family: 'freckle face', cursive; margin-left: 25px; margin-right: 50px;font-size: 70px}
+
+
+/*#Slogan { top: 150px; position: absolute; }*/
+
+#dialogSignup, #dialogLogin { display: none;}
+
+#dialogSignup { position: absolute; top: 150px; right: 120px;border:2px solid blue; background-color: orange; }
+
+
+p { top: 370px; left: 25px; width: 400px; color: rgb(0, 153, 153); font-family: 'special elite', cursive; font-size: 20px}
+
+/*menu { position: absolute; z-index: 150; top: 15px; right: 500px; font-family: 'nunito', sans-serif; }
+#page { width: 100%; .content { padding: 20px;}*/
+
+.formmessage { color: #00f;}
+ 
+ul.content { position: absolute; top: 410px; color: black; margin-left: 25px;}
+	/*li { margin-bottom: 5px; list-style-type: square; font-weight: 300, }*/
+
+footer { position: fixed; bottom: 20px;  padding: 0 !important; right: 20px;}
+
+
+
+
+
+
+
+/*h3 {background: white; width: 250px;margin-left: 800px}
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+*/*/

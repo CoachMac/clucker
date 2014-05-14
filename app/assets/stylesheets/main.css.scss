@@ -1,0 +1,31 @@
+html
+#header { position: absolute; z-index: 100;  top: 0px; padding: 0px 20px; left: 0px; width: 100%; background-color: rgba(0,2,255,.2); }
+#header a { color: #000; }
+
+
+h1 { color: rgb(0, 127, 127); background-color: rgba(255, 255, 0, 0.5); top: 60px; position: absolute; }
+
+h2 { position: absolute; top: 100px; font-weight: 400; margin-left: 25px}
+
+p { position: absolute; top: 200px; left: 25px; width: 400px;}
+
+menu { position: fixed; z-index: 150; top: 15px; right: 500px; }
+
+img { float: left; }
+
+input { margin-left: 100px; width: 150px; margin-left: 300px}
+
+ul { position: absolute; top: 300px}
+li { margin-bottom: 5px; list-style-type: square; font-weight: 300}
+
+footer { position: fixed; bottom: 20px;  padding: 0 !important; right: 20px;}
+
+button { float: right; margin-right: 20px; margin-top: 20px; z-index: 300;}
+
+body 
+	{ font-family:  "Roboto", sans-serif;  color: #000000; font-weight: 600;  margin: 0; padding: 0; background-color: #edf0f5 }
+
+
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
